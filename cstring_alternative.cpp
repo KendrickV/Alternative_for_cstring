@@ -27,17 +27,17 @@ class CHAR
 
 /////////////////////////////////////////////////////////////////////////////////// strlen()
 	int operator()(char mes1[],char mes2[])       //////// len(char1,char2)
-	{													//
-		int i1=0;										//
-		int i2=0;										//
+	{										//
+		int i1=0;								//
+		int i2=0;								//
 		while(mes1[i1] != 0) i1++;						//
-		while(mes2[i2] != 0) i2++;						// 			returns -1 if the number of characters in 1st string is greater than the 2nd string
-														//strlen -	returns  1 if the number of characters in 2st string is greater than the 1nd string
-														//			returns  0 if the number of characters are equal in both strings
-		if(i1>i2)return -1;								//
+		while(mes2[i2] != 0) i2++;						// 		returns -1 if the number of characters in 1st string is greater than the 2nd string
+											//strlen -	returns  1 if the number of characters in 2st string is greater than the 1nd string
+											//		returns  0 if the number of characters are equal in both strings
+		if(i1>i2)return -1;							//
 		else if(i1<i2) return 1;						//
 		else if(i1==i2) return 0;						//
-	}											//////////
+	}										//////////
 	
 	int LEN(char mes[]) // len.LEN(char)
 	{									
@@ -283,7 +283,7 @@ int main()
 {	
 	CHAR a,b,len,find,concat,copy,cmp;
 	
-	//strlen(), strcpy=, strcat+, strcmp  -1 0 1>, strchr%, strstr&
+	
 		
 return 0;
 }
