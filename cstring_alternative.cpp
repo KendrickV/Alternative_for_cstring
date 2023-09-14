@@ -11,20 +11,16 @@ class CHAR
 		{
 			if(value[0]!='\0')
 			{
-     	   	 	int i = 0;
-    	   		while (value[i] != '\0' && i < 256) 
-    		    {
-			
-  	          		val[i] = value[i];
- 	        	    i++;
- 			    }
-      	  		val[i] = '\0';
+     	   	 		int i = 0;
+    	   			while (value[i] != '\0' && i < 256) 
+    		   		{
+					val[i] = value[i];
+ 	        	    		i++;
+ 			    	}
+      	  			val[i] = '\0';
  	  		}
- 	  	}
- 	  	
+ 	  	}	
     	~CHAR(){}
-
-
 /////////////////////////////////////////////////////////////////////////////////// strlen()
 	int operator()(char mes1[],char mes2[])       //////// len(char1,char2)
 	{										//
