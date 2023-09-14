@@ -1,0 +1,1 @@
+# Alternative_for_cstring
